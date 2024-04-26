@@ -1,0 +1,1015 @@
+@keyframes countup {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    font-family: Font Awesome 5 Free, sans-serif;
+    max-width: 100%;
+    min-width: 450px;
+    overflow-x: hidden;
+    margin: auto;
+    justify-content: center;
+}
+
+.vertical-line {
+    border-left: 1px solid #545454;
+    height: 16px;
+    margin: 0 8px;
+}
+
+.social-icon {
+    margin-left: 8px;
+    font-size: 20px;
+    color: #000;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link{
+    font-weight: 600;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #c6d333;
+}
+
+.navlist {
+    display: flex;
+    align-items: right;
+    gap: 2rem;
+}
+
+.top-contact {
+    color: #545454;
+    padding: 5px 10px;
+}
+
+.top-contact a {
+    color: #545454;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.top-contact a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://alvinelaw.com/wp-content/uploads/2022/09/Workers-comp-for-emotional-disturbance.jpg") no-repeat center right;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    max-height: 750px;
+}
+
+@media (max-width: 850px) {
+    .playbtn {
+        display: none;
+    }
+}
+
+.banner h1 {
+    font-size: 70px;
+    width: 30%;
+    margin-left: 7.5%;
+    font-family: Font Awesome 5 Free, sans-serif;
+    font-weight: 600;
+}
+
+.banner h6 {
+    font-size: 22px;
+    margin-top: 15vh;
+    width: 30%;
+    margin-left: 7.5%;
+    font-family: Font Awesome 5 Free, sans-serif;
+    font-weight: 500;
+}
+
+.banner p {
+    font-size: 22px;
+    margin-left: 7.5%;
+    width: 30%;
+    font-family: Font Awesome 5 Free, sans-serif;
+    font-weight: 400;
+}
+
+.contactus-btn {
+    margin-left: 7.5%;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.contactus-btn a {
+    font-size: 40px;
+}
+
+.playbtn {
+    margin-left: 70%;
+    margin-top: -15%;
+}
+
+.playbtn :hover {
+    cursor: pointer;
+}
+
+@media (min-width: 2500px) {
+    .banner {
+        height: 85vh;
+    }
+
+    .banner h1 {
+        font-size: 80px;
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .banner h6 {
+        font-size: 18px;
+        margin-top: 10vh;
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .banner p {
+        font-size: 30px;
+        margin-left: 5%;
+        width: 50%;
+    }
+
+    .contactus-btn {
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+
+    .contactus-btn a {
+        font-size: 30px;
+    }
+
+    .playbtn {
+        margin-left: 70%;
+        margin-top: 1px;
+    }
+}
+
+@media (max-width: 765px) {
+    .banner {
+        height: 85vh;
+    }
+
+    .banner h1 {
+        font-size: 50px;
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .banner h6 {
+        font-size: 18px;
+        margin-top: 15vh;
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .banner p {
+        font-size: 18px;
+        margin-left: 5%;
+        width: 50%;
+    }
+
+    .contactus-btn {
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+
+    .contactus-btn a {
+        font-size: 30px;
+    }
+}
+
+
+
+/* -----   CONSTRUCTION   ----- */
+
+.constructionsection {
+    margin: 100px auto;
+    width: 85%;
+}
+
+.heading-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    animation: countup 1s ease-out forwards;
+}
+
+.construction-p {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 15px -5px;
+    text-align: left;
+    animation: countup 1s ease-out forwards;
+    width: 90%;
+}
+
+.construction-list ul {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 2px;
+    margin-top: 20px;
+    animation: countup 1s ease-out forwards;
+}
+
+.arrow-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.arrow-list li:before {
+    content: "\276F";
+    margin-right: 5px;
+}
+
+.the-counter-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: countup 1s ease-out forwards;
+}
+
+.the-counter-number {
+    font-size: 69px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    animation: countup 1s ease-out forwards;
+}
+
+.counter-number-prefix,
+.counter-number-suffix {
+    flex-grow: 0.5;
+    white-space: pre-wrap;
+}
+
+.counter-number-prefix {
+    text-align: right;
+}
+
+.counter-number-suffix {
+    text-align: left;
+}
+
+.counter-title {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 2.0;
+}
+
+@media screen and (max-width: 767px) {
+    .the-counter-section {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .the-counter-number,
+    .counter-title {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+/* -----   PROJETS   ----- */
+
+.our-works {
+    margin: 100px auto;
+    width: 85%;
+    text-align: center;
+}
+
+.heading-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    animation: countup 1s ease-out forwards;
+}
+
+.projectsdesc {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px auto;
+    width: 70%;
+    animation: countup 1s ease-out forwards;
+}
+
+.hat-icon {
+    font-size: 20px;
+    margin-block-end: 20px;
+    padding: 20px 20px;
+}
+
+.allProjectsLink {
+    color: #ffa600;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    animation: countup 1s ease-out forwards;
+}
+
+.allProjectsLink:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.arrowRightProjects {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.cityhall {
+    text-align: start;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://blacklockjewellery.com/wp-content/uploads/2020/07/HoB_Our_Story.jpg");
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    margin: 10px auto;
+    padding-top: 250px;
+    padding-bottom: 10px;
+    min-width: 31%;
+    animation: countup 1s ease-out forwards;
+}
+
+.cityhall h4 {
+    font-size: 30px;
+    font-weight: 620;
+    margin-top: 20px;
+    margin-left: .5rem;
+}
+
+.cityhall p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.cityhall .button {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.cityhall .button:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+.cityhall a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cityhall a:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+.metropark {
+    text-align: start;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://media.licdn.com/dms/image/D4D12AQEbVuHUjwsbUQ/article-cover_image-shrink_720_1280/0/1705481649657?e=2147483647&v=beta&t=GJRT2ggdix15e5U7pv2wN7iut8iNMCq1rmIhEMKuP14");
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    margin: 10px auto;
+    padding-top: 250px;
+    padding-bottom: 10px;
+    min-width: 31%;
+    animation: countup 1s ease-out forwards;
+}
+
+.metropark h4 {
+    font-size: 30px;
+    font-weight: 620;
+    margin-top: 20px;
+    margin-left: .5rem;
+}
+
+.metropark p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.metropark .button {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.metropark .button:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+.metropark a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.metropark a:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+.globalcompany {
+    text-align: start;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://shivombrass.co.in/uploads/industries/650e972c1fac5.jpg");
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    margin: 10px auto;
+    padding-top: 250px;
+    padding-bottom: 10px;
+    min-width: 31%;
+    animation: countup 1s ease-out forwards;
+}
+
+.globalcompany h4 {
+    font-size: 30px;
+    font-weight: 620;
+    margin-top: 20px;
+    margin-left: .5rem;
+}
+
+.globalcompany p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.globalcompany .button {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.globalcompany .button:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+.globalcompany a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.globalcompany a:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+
+/* -----   FOOTER   ----- */
+.the-footer {
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.footer-text {
+    font-size: 1rem;
+    color: #000;
+    text-align: left;
+}
+
+.footer-titles {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #c6d333;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 0;
+}
+
+.footer-list-items {
+    list-style: none;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+}
+
+.footer-list-items a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-list-items a:hover {
+    color: #c6d333;
+}
+
+.footer-list-items button {
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-left: 0;
+}
+
+.footer-list-items button:hover {
+    background-color: #000000;
+    color: #c6d333;
+}
+
+.follow-updates {
+    justify-content: justify;
+    white-space: nowrap;
+    margin-right: 0;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-right: 20px;
+}
+
+.social-media-icons a {
+    margin: 0 6px;
+}
+
+
+
+
+
+/* -----   PJESA 2   ----- */
+
+
+
+h1 {
+    font-size: 3em;
+}
+
+#expert_build {
+
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.noborder-collaps {
+    border: none;
+}
+
+.btn.text-warning:hover {
+    background-color: black;
+}
+
+.btn.text-warning:hover span {
+    color: #fff;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: fit-content;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.img-fluid {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    transition: transform .2s;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+}
+
+.expertbuildspace {
+    margin: 10px auto;
+}
+
+.expertbuildspace h2{
+    margin: 10px auto;
+}
+
+
+
+
+/*EFEKT SLIDE IN PER KOKENE E FAQES TE Seksioni "BUILD THE DREAM" //  Construction News*/
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.flex-grow-1 {
+    animation-name: slideIn;
+    animation-duration: 2s;
+}
+
+
+/*Animacion per Seksioni "I KARTAVE" */
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.col-md-4:nth-child(1) .card {
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+}
+
+.col-md-4:nth-child(2) .card {
+    animation-name: slideInTop;
+    animation-duration: 2s;
+}
+
+.col-md-4:nth-child(3) .card {
+    animation-name: slideInRight;
+    animation-duration: 2s;
+}
+
+/*vendosja e imazhit si bacground tek 3 kartat*/
+
+/*karta 1*/
+.hover-card1 {
+    background-color: white;
+    transition: background-color 1s ease;
+    background-size: cover;
+}
+
+.hover-card1:hover {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('Photos/karta1.jpg');
+
+}
+
+
+/*karta 2*/
+.hover-card2 {
+    background-color: white;
+    transition: background-color 1s ease;
+    background-size: cover;
+}
+
+.hover-card2:hover {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('Photos/karta2.jpg');
+
+
+}
+
+
+/*karta 3*/
+.hover-card3 {
+    background-color: white;
+    transition: background-color 1s ease;
+    background-size: cover;
+}
+
+.hover-card3:hover {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('Photos/karta3.jpg');
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-img-top {
+        height: 150px;
+        object-fit: contain;
+    }
+    .theservicesimgmn{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        padding: 20px;
+        margin: 0;
+        text-align: left;
+    }
+    .card-img-top.mx-auto {
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .card-title {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+/*EFEKT SLIDE IN PER 4 kartat */
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.col-md-6:nth-child(1) .card {
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+}
+
+.col-md-6:nth-child(2) .card {
+    animation-name: slideInRight;
+    animation-duration: 2s;
+}
+
+/* For the second row */
+.row:nth-child(3) .col-md-6:nth-child(1) .card {
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+}
+
+.row:nth-child(3) .col-md-6:nth-child(2) .card {
+    animation-name: slideInRight;
+    animation-duration: 2s;
+}
+
+/*Animacionet e Seksionit Expert Builder*/
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#expert_build .col-5 * {
+    animation-name: slideInFromLeft;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+}
+
+#expert_build .col-6 * {
+    animation-name: slideInFromRight;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+#expert_build .card * {
+    animation-name: slideInFromTop;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+}
+
+.noborder-collaps {
+    border: none;
+}
+
+.card-header .btn {
+    text-decoration: none;
+    color: inherit;
+}
+
+.material-symbols-outlined {
+    float: right;
+}
+
+.news-titles {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-left: 0;
+
+}
+
+@media (min-width: 768px) {
+    .card .row {
+        display: flex;
+        align-items: center;
+    }
+
+    .card .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .card .col-md-6 img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .card .row {
+        flex-direction: row;
+    }
+
+    .card .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .card .row {
+        flex-direction: column;
+    }
+
+    .card .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+/*LOADERI I FAQES*/
+
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 50%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.spinner img {
+    width: 100%;
+    height: auto;
+    animation: spin 1s linear infinite;
+    filter: invert(1) brightness(100%);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

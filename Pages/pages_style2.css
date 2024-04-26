@@ -1,0 +1,673 @@
+@keyframes countup {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body{
+    font-family: Font Awesome 5 Free, sans-serif;
+    max-width: 100%;
+    min-width: 450px;
+    overflow-x: hidden;
+    margin: auto;
+    justify-content: center;
+}
+
+.vertical-line {
+    border-left: 1px solid #545454;
+    height: 16px;
+    margin: 0 8px;
+}
+
+.social-icon {
+    margin-left: 8px;
+    font-size: 20px;
+    color: #000;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link{
+    font-weight: 600;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #c6d333;
+}
+
+.navlist {
+    display: flex;
+    align-items: right;
+    gap: 2rem;
+}
+
+.top-contact {
+    color: #545454;
+    padding: 5px 10px;
+}
+
+.top-contact a {
+    color: #545454;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.top-contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* -----   PROJETS   ----- */
+
+.our-works {
+    margin: 50px auto;
+    width: 85%;
+    text-align: center;
+}
+
+.heading-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    animation: countup 1s ease-out forwards;
+}
+
+.projectsdesc {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px auto;
+    width: 70%;
+    animation: countup 1s ease-out forwards;
+}
+
+.hat-icon {
+    font-size: 20px;
+    margin-block-end: 20px;
+    padding: 20px 20px;
+}
+
+.arrowRightProjects {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.allProjectsPage {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.cityhall {
+    text-align: start;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("");
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    margin: 15px auto;
+    padding-top: 250px;
+    padding-bottom: 10px;
+    min-width: 31%;
+    animation: countup 1s ease-out forwards;
+}
+
+.cityhall h4 {
+    font-size: 30px;
+    font-weight: 620;
+    margin-top: 20px;
+    margin-left: .5rem;
+}
+
+.cityhall p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.cityhall .button {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.cityhall .button:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+.cityhall a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cityhall a:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+.metropark {
+    text-align: start;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("");
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    margin: 15px auto;
+    padding-top: 250px;
+    padding-bottom: 10px;
+    min-width: 31%;
+    animation: countup 1s ease-out forwards;
+}
+
+.metropark h4 {
+    font-size: 30px;
+    font-weight: 620;
+    margin-top: 20px;
+    margin-left: .5rem;
+}
+
+.metropark p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.metropark .button {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.metropark .button:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+.metropark a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.metropark a:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+.globalcompany {
+    text-align: start;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("");
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    margin: 15px auto;
+    padding-top: 250px;
+    padding-bottom: 10px;
+    min-width: 31%;
+    animation: countup 1s ease-out forwards;
+}
+
+.globalcompany h4 {
+    font-size: 30px;
+    font-weight: 620;
+    margin-top: 20px;
+    margin-left: .5rem;
+}
+
+.globalcompany p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.globalcompany .button {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.globalcompany .button:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+.globalcompany a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.globalcompany a:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+
+/* -----   FOOTER   ----- */
+.the-footer {
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.footer-text {
+    font-size: 1rem;
+    color: #000;
+    text-align: left;
+}
+
+.footer-titles {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #c6d333;
+    margin-bottom: 1rem; 
+    margin-top: 2rem;
+    margin-left: 0;
+}
+
+.footer-list-items {
+    list-style: none;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+}
+
+.footer-list-items a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-list-items a:hover {
+    color: #c6d333;
+}
+
+.footer-list-items button {
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-left: 0;
+}
+
+.footer-list-items button:hover {
+    background-color: #000000;
+    color: #c6d333;
+}
+
+.follow-updates {
+    justify-content: justify;
+    white-space: nowrap;
+    margin-right: 0;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center; 
+    margin-top: 1rem;
+    margin-right: 20px;
+}
+
+.social-media-icons a {
+    margin: 0 6px; 
+}
+
+
+
+
+
+
+/*COMPANY */
+.bg-image {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url(../Photos/23.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    height: fit-content;
+    color: white;
+    margin: 15px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-width: 31%;
+    animation: countup 1s ease-out forwards;
+}
+
+.white-text {
+    color: white;
+}
+
+
+
+/* -----   ExperT Bulder testimonial   ----- */
+.testimonial {
+    max-width:fit-content;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.testimonial.quote {
+    font-style: italic;
+    border-left: 3px solid gold;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.author-info {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.author-name {
+    font-weight: bold;
+}
+
+.author-role {
+    font-size: smaller;
+    color: grey;
+}
+
+.author-info  {
+font-size:23px ;
+}
+
+#expert_build{
+    background-color:whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/*----foto baneri poshte---------*/
+.foto_baner{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url(../Photos/78.jpg) no-repeat center center;
+    background-size: cover;
+    height: fit-content;
+    padding: 200px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+/*"BUILD THE DREAM"*/
+
+/*EFEKT SLIDE IN PER KOKENE E FAQES TE Seksioni "BUILD THE DREAM" */
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .flex-grow-1 {
+    animation-name: slideIn;
+    animation-duration: 2s;
+  }
+  
+  .expertbuildspace {
+    margin: 10px auto;
+}
+
+/*Animacion per Seksioni "I KARTAVE" */
+
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInTop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .col-md-4:nth-child(1) .card {
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+  }
+  
+  .col-md-4:nth-child(2) .card {
+    animation-name: slideInTop;
+    animation-duration: 2s;
+  }
+  
+  .col-md-4:nth-child(3) .card {
+    animation-name: slideInRight;
+    animation-duration: 2s;
+  }
+  
+/*vendosja e imazhit si bacground tek 3 kartat*/
+
+/*karta 1*/
+.hover-card1 {
+background-color:white;
+transition: background-color 1s ease;
+background-size: cover;
+}
+
+.hover-card1:hover {
+color: white;
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Photos/karta1.jpg');
+
+}
+
+
+/*karta 2*/
+.hover-card2 {
+background-color:white;
+transition: background-color 1s ease;
+background-size: cover;
+}
+
+.hover-card2:hover {
+color: white;
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Photos/karta2.jpg');
+
+
+}
+
+
+/*karta 3*/
+.hover-card3 {
+background-color:white;
+transition: background-color 1s ease;
+background-size: cover;
+}
+
+.hover-card3:hover {
+color: white;
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Photos/karta3.jpg');
+
+}
+
+/*shtese css*/
+.btn.text-warning:hover {
+    background-color: black;
+  }
+  
+  .btn.text-warning:hover span {
+    color: #fff;
+  }
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+   width:fit-content;
+  }
+  
+
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  .img-fluid {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    transition: transform .2s; 
+  }
+  
+  .img-fluid:hover {
+    transform: scale(1.1); 
+  }
+  
+  .baner_contact {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Photos/21.jpg) no-repeat center center;
+    background-size: cover;
+    height: fit-content;
+    color: white;
+    margin: 15px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-width: 31%;
+    animation: countup 1s ease-out forwards;
+}
+
+
+
+/*FORMA E KONTAKTIT*/
+
+
+
+
+#contactForm {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    animation: countup 1s ease-out forwards;
+}
+
+#contactForm h1 {
+    text-align: center;
+    color: #333; /* Replace with your preferred color */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contactForm .form-control {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+#contactForm .form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+#contactForm button[type="submit"] {
+    border-radius: 10px;
+    background-color: gold; /* Black */
+    border: none;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+#contactForm button[type="submit"]:hover {
+    background-color: black; /* Gold */
+    color: gold; /* Black text on hover */
+}
+
+#contactForm .invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    color: #dc3545;
+}
+
+/*vendosja e imazhit si bacground tek 3 kartat tek contact*/
+
+/*karta 1*/
+.hover-card_1 {
+    background-color:white;
+    transition: background-color 1s ease;
+    background-size: cover;
+    }
+    
+    
+    
+    
+    /*karta 2*/
+    .hover-card_2 {
+    background-color:white;
+    transition: background-color 1s ease;
+    background-size: cover;
+    }
+    
+    
+    
+    
+    /*karta 3*/
+    .hover-card_3 {
+    background-color:white;
+    transition: background-color 1s ease;
+    background-size: cover;
+    }
+    
+    .hover-card_1 img,.hover-card_2 img,.hover-card_3 img {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+        padding: 20px;
+        justify-content: center;
+        
+      }
+    
+ 

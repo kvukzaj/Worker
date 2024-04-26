@@ -1,0 +1,489 @@
+@keyframes countup {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    font-family: Font Awesome 5 Free, sans-serif;
+    max-width: 100%;
+    min-width: 450px;
+    overflow-x: hidden;
+    margin: auto;
+    justify-content: center;
+}
+
+.vertical-line {
+    border-left: 1px solid #545454;
+    height: 16px;
+    margin: 0 8px;
+}
+
+.social-icon {
+    margin-left: 8px;
+    font-size: 20px;
+    color: #000;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link{
+    font-weight: 600;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #c6d333;
+}
+
+.top-contact {
+    color: #545454;
+    padding: 5px 10px;
+}
+
+.top-contact a {
+    color: #545454;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.top-contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* -----   CONSTRUCTION   ----- */
+
+.constructionsection {
+    margin: 100px auto;
+    width: 100%;
+}
+
+.constructionsection-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://blacklockjewellery.com/wp-content/uploads/2020/07/HoB_Our_Story.jpg");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    color: white;
+    margin: 15px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-width: 31%;
+    animation: countup 1s ease-out forwards;
+}
+
+/* .heading-title in Projects */
+
+.heading-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    animation: countup 1s ease-out forwards;
+}
+
+.construction-p {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 15px -5px;
+    text-align: left;
+    animation: countup 1s ease-out forwards;
+    width: 90%;
+}
+
+.construction-list ul {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 2px;
+    margin-top: 20px;
+    animation: countup 1s ease-out forwards;
+}
+
+.arrow-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.arrow-list li:before {
+    content: "\276F";
+    margin-right: 5px;
+}
+
+.the-counter-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: countup 1s ease-out forwards;
+}
+
+.the-counter-number {
+    font-size: 69px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    animation: countup 1s ease-out forwards;
+}
+
+.counter-number-prefix,
+.counter-number-suffix {
+    flex-grow: 0.5;
+    white-space: pre-wrap;
+}
+
+.counter-number-prefix {
+    text-align: right;
+}
+
+.counter-number-suffix {
+    text-align: left;
+}
+
+.counter-title {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 2.0;
+}
+
+@media screen and (max-width: 767px) {
+    .the-counter-section {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .the-counter-number,
+    .counter-title {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+/*vendosja e imazhit si bacground tek 3 kartat*/
+/*karta 1*/
+.hover-card1 {
+    background-color: white;
+    transition: background-color 1s ease;
+    background-size: cover;
+}
+
+.hover-card1:hover {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Photos/karta1.jpg');
+
+}
+
+/*karta 2*/
+.hover-card2 {
+    background-color: white;
+    transition: background-color 1s ease;
+    background-size: cover;
+}
+
+.hover-card2:hover {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Photos/karta2.jpg');
+
+
+}
+
+/*karta 3*/
+.hover-card3 {
+    background-color: white;
+    transition: background-color 1s ease;
+    background-size: cover;
+}
+
+.hover-card3:hover {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Photos/karta3.jpg');
+}
+
+/*karta 4*/
+.hover-card4 {
+    background-color: white;
+    transition: background-color 1s ease;
+    background-size: cover;
+}
+
+.hover-card4:hover {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://www.mckinney-usa.com/wp-content/uploads/2018/06/bottom-block-3.jpg");
+}
+
+/*karta 5*/
+.hover-card5 {
+    background-color: white;
+    transition: background-color 1s ease;
+    background-size: cover;
+}
+
+.hover-card5:hover {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://shivombrass.co.in/uploads/industries/650e972c1fac5.jpg");
+}
+
+/*karta 6*/
+.hover-card6 {
+    background-color: white;
+    transition: background-color 1s ease;
+    background-size: cover;
+}
+
+.hover-card6:hover {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://www.aiglobalmedialtd.com/brandwide-assets/images/build/landing-bg-right.png");
+}
+
+.theservicesimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-img-top {
+        height: 150px;
+        object-fit: contain;
+    }
+    .theservicesimgmn{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        padding: 20px;
+        margin: 0;
+        text-align: left;
+    }
+    .card-img-top.mx-auto {
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .card-title {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+/* -----   PROJETS   ----- */
+
+.our-works {
+    margin: 50px auto;
+    width: 85%;
+    text-align: center;
+}
+
+.backgimg-projects {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://www.yorhub.com/img/2019/06/sparks.jpg?w=1440&h=560&fit=crop");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    color: white;
+    margin: 15px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-width: 31%;
+    animation: countup 1s ease-out forwards;
+}
+
+.heading-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    animation: countup 1s ease-out forwards;
+}
+
+.projectsdesc {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px auto;
+    width: 70%;
+    animation: countup 1s ease-out forwards;
+}
+
+.hat-icon {
+    font-size: 20px;
+    margin-block-end: 20px;
+    padding: 20px 20px;
+}
+
+.arrowRightProjects {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.allProjectsPage {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.cityhall {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://blacklockjewellery.com/wp-content/uploads/2020/07/HoB_Our_Story.jpg");
+}
+
+.metropark {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://media.licdn.com/dms/image/D4D12AQEbVuHUjwsbUQ/article-cover_image-shrink_720_1280/0/1705481649657?e=2147483647&v=beta&t=GJRT2ggdix15e5U7pv2wN7iut8iNMCq1rmIhEMKuP14");
+}
+
+.globalcompany {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://shivombrass.co.in/uploads/industries/650e972c1fac5.jpg");
+}
+
+.gardentower {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://www.aiglobalmedialtd.com/brandwide-assets/images/build/landing-bg-right.png");
+}
+
+.conventionpark {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://www.mckinney-usa.com/wp-content/uploads/2018/06/bottom-block-3.jpg");
+}
+
+.scottindustry {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Photos/2.png");
+}
+
+.artlibrary {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Photos/cr4.jpg");
+
+}
+
+.mallbuilding {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Photos/karta2.jpg");
+
+}
+
+.miltonhouse {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Photos/karta3.jpg");
+}
+
+.cityhall, .metropark, .globalcompany, .gardentower, .conventionpark, .scottindustry, .artlibrary, .mallbuilding, .miltonhouse {
+    text-align: start;
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    margin: 15px auto;
+    padding-top: 250px;
+    padding-bottom: 10px;
+    min-width: 31%;
+    animation: countup 1s ease-out forwards;
+}
+
+.cityhall h4, .metropark h4, .globalcompany h4, .gardentower h4, .conventionpark h4, .scottindustry h4, .artlibrary h4, .mallbuilding h4, .miltonhouse h4 {
+    font-size: 30px;
+    font-weight: 620;
+    margin-top: 20px;
+    margin-left: .5rem;
+}
+
+.cityhall p, .metropark p, .globalcompany p, .gardentower p, .conventionpark p, .scottindustry p, .artlibrary p, .mallbuilding p, .miltonhouse p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.cityhall .button, .metropark .button, .globalcompany .button, .gardentower .button, .conventionpark .button, .scottindustry .button, .artlibrary .button, .mallbuilding .button, .miltonhouse .button {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: .5rem;
+}
+
+.cityhall .button:hover, .metropark .button:hover, .globalcompany .button:hover, .gardentower .button:hover, .conventionpark .button:hover, .scottindustry .button:hover, .artlibrary .button:hover, .mallbuilding .button:hover, .miltonhouse .button:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+.cityhall a, .metropark a, .globalcompany a, .gardentower a, .conventionpark a, .scottindustry a, .artlibrary a, .mallbuilding a, .miltonhouse a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cityhall a:hover, .metropark a:hover, .globalcompany a:hover, .gardentower a:hover, .conventionpark a:hover, .scottindustry a:hover, .artlibrary a:hover, .mallbuilding a:hover, .miltonhouse a:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+
+/* -----   FOOTER   ----- */
+.the-footer {
+    margin: auto;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+.footer-text {
+    font-size: 1rem;
+    color: #000;
+    text-align: left;
+}
+
+.footer-titles {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #c6d333;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 0;
+}
+
+.footer-list-items {
+    list-style: none;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+}
+
+.footer-list-items a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-list-items a:hover {
+    color: #c6d333;
+}
+
+.footer-list-items button {
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-left: 0;
+}
+
+.footer-list-items button:hover {
+    background-color: #000000;
+    color: #c6d333;
+}
+
+.follow-updates {
+    justify-content: justify;
+    white-space: nowrap;
+    margin-right: 0;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-right: 20px;
+}
+
+.social-media-icons a {
+    margin: 0 6px;
+}
